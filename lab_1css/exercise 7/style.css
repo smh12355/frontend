@@ -1,0 +1,12 @@
+*{
+    background-color: aqua;
+    /* margin: 0; */
+}
+
+div a{
+    display:block;
+}
+
+div a[href*="zip"]::after{
+    content: " ▼";
+}

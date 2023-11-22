@@ -1,0 +1,14 @@
+*{
+    background-color: aqua;
+}
+
+div a{
+    color: red;
+    font-size: 20px;
+    display: inline-block;
+}
+
+div a[href*="https://my-site.ru"]{
+    color:blue;
+    font-size: 15px;
+}

@@ -1,0 +1,24 @@
+*{
+    color: #444;
+}
+
+.first{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 #444, 1px 1px 0 white;
+    text-align: center;
+    margin: 0;
+}
+
+.second{
+    text-align: center;
+    text-decoration: underline; 
+    white-space: nowrap;   
+}
+
+div{
+    text-align: justify;
+    text-indent: 3em;
+    font-size: 20px;
+    margin-bottom: 10px;
+}

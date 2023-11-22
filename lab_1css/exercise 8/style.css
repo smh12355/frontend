@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(246, 250, 248)
+    text-align: justify;
+}
+
+div p::first-line {
+    color: aqua;
+    opacity: 0.5;
+  }
+/* пытался с помощью css, поставить переносы после запятых, не понял как это делать. */

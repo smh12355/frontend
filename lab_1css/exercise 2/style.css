@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(17, 197, 197);
+    margin: 0;
+}
+
+h1{
+    color: azure;
+    text-align: center;
+}
+
+.first{
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.second{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:justify;
+    font-style: italic;
+    text-indent: 1em;
+    /* Не понятно, как сделать красную строку для каждого текстового ввода */
+    /* padding-left: 10px; */
+}
+
+.third{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    /* font-style: oblique; */
+    font-weight: bold;
+}
+
+.fourth{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:2.5em;
+    text-align: center;
+    /* font-weight: 700; */
+}
+
+.five{
+    font-family: 'Comic Sans MS';
+    font-style: italic;
+    font-size: 1.3em;
+
+}

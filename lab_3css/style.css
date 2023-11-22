@@ -1,0 +1,39 @@
+*{
+background-color: aqua;
+margin: 5;
+}
+
+/* div h1{
+    background-color: tomato;
+    padding: 10pxs;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+div{
+    /* width: 250px; */
+    /* height: auto; */
+    background-color: chocolate;
+    box-shadow: 5px 5px blue;
+    padding: 5px;
+    font-size: 20px;
+    margin: auto;
+    position: absolute;
+    /* left: auto; */
+    right: auto;
+    
+}
+/* 
+a{
+    display: ;
+    background-color: goldenrod;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom:purple;
+    border-bottom-style: dotted;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    border-top-style: dotted;
+}
+a:hover{
+    background-color: red;
+} */

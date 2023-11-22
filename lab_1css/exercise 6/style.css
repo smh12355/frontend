@@ -1,0 +1,29 @@
+*{
+    font-size: 30px;
+}
+div a{
+    color: aqua;
+}
+
+div a:link{
+    color: aqua ;
+    opacity: 1;
+}
+
+
+div a:visited{
+    color: orange;
+    opacity: 0.7;
+}
+
+div a:active{
+    color: green;
+    opacity: 0.7;
+}
+
+div a:hover{
+    color: red;
+    opacity: 0.3;
+} 
+/* Есть проблема с active, он работает, толькое если нажимать в нижнюю 
+черту, как решить эту проблему не понял до конца, в интернете предлагают использовать якори */

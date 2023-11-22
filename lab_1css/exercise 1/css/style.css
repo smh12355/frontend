@@ -1,0 +1,30 @@
+*{
+background-color: aqua;
+margin: 0;
+}
+
+div h1{
+    background-color: tomato;
+    padding: 10pxs;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Yo{
+    color: rgb(21, 150, 4);
+}
+
+#Yo1{
+    color: rgb(46, 16, 237);
+}
+
+.Yo2{
+    color: rgb(170, 234, 20);
+}
+
+.Yo3{
+    color: rgb(234, 24, 104);
+}
+
+#Yo4{
+    color: rgb(235, 10, 243);
+}
