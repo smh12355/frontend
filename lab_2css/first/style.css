@@ -1,0 +1,46 @@
+*{
+background-color: rgb(86, 111, 111);
+margin: 5;
+}
+
+.first{
+    /* width: 250px; */
+    /* height: auto; */
+    background-color: chocolate;
+    box-shadow: 5px 5px blue;
+    padding: 5px;
+    font-size: 20px;
+    /* margin: auto; */
+    /* position: relative; */
+    /* display: block; */
+    /* left: auto; */
+    text-align: center;
+    
+}
+.second a{
+     display: block;
+     background-color: rgb(32, 218, 209);
+     text-decoration: none;
+     /* padding: 5px; */
+     border-bottom:purple;
+     border-bottom-style: groove;
+     border-right-style: groove;
+     border-left-style: groove;
+     border-top-style: groove;
+      
+}
+
+.first a{
+    /* display: ; */
+    background-color: rgb(32, 218, 209);
+    text-decoration: none;
+    /* padding: 5px; */
+    border-bottom:purple;
+    border-bottom-style: groove;
+    border-right-style: groove;
+    border-left-style: groove;
+    border-top-style: groove;
+}
+a:hover{
+    background-color: red;
+}

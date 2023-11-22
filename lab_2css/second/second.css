@@ -1,0 +1,10 @@
+*{
+    background-color: rgb(134, 134, 130);
+    margin: 5px;
+}
+div{
+   display: inline-block; 
+}
+p{
+    display:block;
+}
