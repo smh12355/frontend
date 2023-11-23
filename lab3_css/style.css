@@ -1,0 +1,48 @@
+/*класс для основного блока и для наплывающего*/
+.base{
+    position: relative;
+    width:200px;
+    height: 100px;
+    border-style: solid;
+    border-color: #67f562;
+    background: linear-gradient(to right,#d1f55b,#c2e9ff);     
+    font-size: 36px;
+    font-family: arial;
+    font-weight: bold;
+    overflow: hidden;
+}
+/*класс для основного блока и для наплывающего*/
+.base{
+    position: relative; /* теперь внутренний блок .layer (absolute)  будет позиционироваться относительно данного*/
+    width:200px;
+    height: 100px;
+    border-style: solid;
+    border-color: #67f562;
+    background: linear-gradient(to right,#d1f55b,#c2e9ff);     
+    font-size: 36px;
+    font-family: arial;
+    font-weight: bold;
+    overflow: hidden; /* Запрещаем показывать все что выходит за пределы данного блока */
+}
+.txt{
+    font-size: 36px;
+    font-family: arial;
+    font-weight: bold;
+    margin:15% auto 15% auto;
+    width: 100px;
+}
+.layer{ /* наплывающий блок */
+    position: absolute;  /* устанавливаем абсолютное позиционирование */
+    top:0px;    
+    left:-100%;     /* смещаем на всю ширину от левой стороны */
+    text-align: center;
+    width:inherit; /* наследуем ширину и высоту */
+    height:inherit;     
+    text-decoration: none;
+    background-color: rgba(10,80,180,0.45); /* устанавливаем цвет и прозрачность */ 
+    transition: left .7s; /* добавляем плавность для позиционирования 0,3 секунды */
+}
+.base:hover .layer{ /* при наведении блок смещается на 0 px от левой стороны */
+    left:0px;
+}
+
